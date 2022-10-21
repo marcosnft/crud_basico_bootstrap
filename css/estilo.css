@@ -1,0 +1,67 @@
+.menu-lateral {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 100%;
+    padding: 10px 0;
+    background: #043c57;
+    position: fixed;
+    
+    width: 10%;
+    float: left;
+    font-size: 15px;
+    color: white;
+
+}
+
+.menu-lateral a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.login{
+    max-width: 600px;
+        width: 95%;
+        padding: 40px 2%;
+        background: white;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        box-shadow: 10px 10px 10px #aaa;
+
+}
+
+.conteudo {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 100%;
+    padding: 15px;
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 90%;
+    float: right;
+    text-decoration: none;
+}
+
+.delete{text-decoration: none;}
+
+/*Box de alerta!*/
+
+.box-alert {
+    width: 100%;
+    padding: 8px 0;
+    text-align: center;
+}
+
+.sucesso {
+    background: #0a5a33;
+    color: white;
+}
+
+.erro {
+    background: #F75353;
+    color: white;
+}
